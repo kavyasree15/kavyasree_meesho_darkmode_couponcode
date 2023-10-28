@@ -1,0 +1,907 @@
+*{
+    box-sizing:border-box;
+}
+
+.header{
+    height: 65px;
+ 
+    display:flex;
+    justify-content:space-evenly;
+   
+
+    
+}
+body{
+    background-color:white;
+}
+
+.mydark{
+    background-color:black;
+    color:white;
+    
+}
+.imageContainer{
+  height:40px;
+  display:flex;
+  margin-top:10px;
+  
+}
+.searchBar{
+    width:430px;
+    height:45px;
+    border-radius: 5px;
+    border:1px solid rgb(220, 215, 215);
+    margin-top: 17px;
+    margin-left: 35px;
+    color: grey;
+    
+
+   
+}
+.inputDiv{
+    height:40px;
+    width:400px;
+    margin-top:2px;
+   
+    border: none;
+    outline: 0 none;
+
+   
+}
+.download{
+    height:45px;
+    width:100px;
+    display:inline;
+}
+.container1{
+    margin-top:28px;
+    
+   
+}
+.app{
+    width:100px;
+    margin-left:10px;
+    margin-right:15px;
+    color:grey;
+    font-size:18px;
+    border-right:1px solid grey;
+}
+.p1{
+   display:block;
+   color:grey;
+}
+.supplier{
+    width:95px;
+    margin-left:25px;
+    align-items:center;
+    border-right:1px solid grey;
+   
+}
+.s1{
+    color:grey;
+   
+}
+.s2{
+   display:block; 
+   color:grey;
+}
+.s3{
+    color:grey;
+
+}
+.profile-person{
+    width:75px;
+    margin-left:30px;
+    border-right:1px solid grey;
+}
+.container2{
+    margin-top:15px;
+    margin-left:15px;
+    line-height:0.1;
+}
+.profile{
+    color:grey;
+    margin-bottom:5px;
+}
+.cart{
+    width:75px;
+    margin-left:30px;
+    
+}
+.container3{
+    margin-top:15px;
+    margin-left:15px;
+    line-height:0.1;
+}
+.cart1{
+    margin-left:15px;
+    color:grey;
+    margin-bottom:5px;
+}
+.panel{
+    margin-left:170px;
+    display: flex;
+}
+button{
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float:right;
+   
+    
+}
+.darkTheme{
+    height: 30px;
+    margin-left: -40px;
+    margin-top: 10px;
+    
+  
+
+   
+}
+.items{
+    color:grey;
+    font-size:18px;
+    float:left;
+    margin-left: 10px;
+}
+#coupon{
+    height:400px;
+    width:600px;
+    background-image: url('https://i.ibb.co/5h0zgDs/maxresdefault.jpg');
+    position: absolute;
+    object-position: center;
+    margin-left: 90px;
+    z-index: 100;
+    visibility:hidden;
+}
+#meeshoShopping{
+   
+}
+.meesho-info{
+    float:left;
+    height:403px;
+    width:480px;
+    
+    background-color: rgb(248, 248, 255);
+    border-radius: 8px;
+    padding: 40px 45px 40px 48px;
+    margin-left: -20px;
+    
+}
+  
+.info{
+    height:180px;
+    width:400px;
+
+    color: rgb(63, 63, 66);
+    font-style: normal;
+    margin-left: -20px;
+    margin-top: -20px;
+    font-size: 40px;
+    font-weight:bold;
+    line-height: 1.2;
+    font-family:-apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+
+
+}
+.downloadApp{
+    height:170px;
+    width:400px;
+    margin-left: -20px;
+ 
+    margin-top: -15px;
+    
+}
+.delivery{
+    height:65px;
+    width:380px;
+   margin-bottom: 40px;
+    margin-left: 10px;
+    margin-top: 2px;
+    background-color: white;
+    
+    
+    
+}
+.freedelivery{
+    height:60px;
+    width:125px;
+   
+    float: left;
+
+
+}
+.logos{
+    height:60px;
+    width:85px;
+   
+    float: right;
+    font-size: 20px;
+
+    
+    
+ 
+
+}
+.free{
+    margin-top: 7px;
+    font-family:-apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+    border-right: 1px solid grey;
+    color: rgb(80, 76, 76);
+}
+.vanlogo{
+   margin-top: 10px;
+} 
+.images{
+    height:60px;
+    width:35px;
+  
+   
+  
+}
+.cashondelivery{
+    height:60px;
+    width:125px;
+  
+    float:left;
+    margin-right: 0px;
+    margin-left: 0px;
+    
+   
+
+
+    
+}
+.easyreturn{
+    height:60px;
+    width:125px;
+   
+    float:left;
+
+
+}
+ 
+.delivery2{
+    height:45px;
+    width:380px;
+ 
+    margin-left: 10px;
+
+    position: relative;
+    
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 10px 28px;
+    background: rgb(159, 32, 137);
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    
+}
+.playstore-logo{
+    margin-right: 20px;
+}
+.appdownload{
+    font-size: 23px;
+    font-family:-apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+
+}
+.image-meesho{
+   height:403px;
+   width:350px;
+}
+.main-image{
+    margin-left:250px;
+}
+.s4{
+    display:block;
+}
+
+
+.heading{
+    height: 150px;
+
+    
+}
+.heading1{
+    
+    width: 900px;
+    height: 130px;
+    margin-top: 50px;
+    margin-left: 200px;
+    color: rgb(63, 63, 66);
+    font-size: 18px;
+    font-weight:bold;
+    line-height: 1.2;
+    font-family:-apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+   
+}
+.headerdiv{
+    margin-left: -30px;
+    border: 2px solid white; 
+    height: 130px;
+    width: 500px;
+    margin-top: -130px;
+    margin-left: 190px;
+    float: left;
+    
+ 
+    
+    
+}
+.h1{
+    margin-left: 20px;
+}
+.line1{
+    height: 130px;
+    width: 190px;
+    border: 2px solid white;
+    
+
+}
+.line-1{
+    height:1.5px ;
+    width: 100%;
+    border: 1px solid rgb(217, 166, 208);
+    
+    margin-top: 60px;
+    
+}
+.line2{
+    height: 130px;
+    width: 210px;
+    border: 2px solid white; 
+    float: right;
+    margin-top: -135px;
+}
+
+.h2{
+    display: block;
+    margin-left: 170px;
+}
+
+.store{
+    display: flex;
+    gap: 15px;
+    height: 550px;
+    width: 800px;
+    background-image: url(https://images.meesho.com/images/marketing/1678691670429_1200.webp);
+    flex-direction: row;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 90px 24px 35px;
+    border-radius: 4px;
+    background-size: 100% 100%;
+
+    margin-left: 250px;
+} 
+.essentials{
+    display: flex;
+    gap: 15px;
+    height: 550px;
+    width: 800px;
+    background-image: url(https://images.meesho.com/images/marketing/1678691743015_1200.webp);
+    flex-direction: row;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 90px 24px 35px;
+    border-radius: 4px;
+    background-size: 100% 100%;
+    margin-top: 60px;
+    margin-left: 250px;  
+} 
+.button{
+    height: 270px;
+    width: 220px;
+  
+    margin-top: 100px;
+    display: flex;
+}
+.button-image{
+    height: 75px;
+    width: 200px;
+    cursor: pointer;
+    margin-left: 10px;
+  
+   
+}
+.home-decor{
+    width: 250px;
+
+    height: 331px;
+   
+    margin-top: 0px;
+    margin-left: 0px;
+    display: inline;
+}
+.home-decor1{
+    margin-top: -100px;
+    cursor: pointer;
+}
+.newstyles{
+    display: flex;
+    gap: 15px;
+    height: 550px;
+    width: 800px;
+    background-image: url(https://images.meesho.com/images/marketing/1678691892265_1200.webp);
+    flex-direction: row;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 90px 24px 35px;
+    border-radius: 4px;
+    background-size: 100% 100%;
+    margin-top: 60px;
+    margin-left: 250px; 
+}
+.body-decor{
+    width: 250px;
+
+    height: 331px;
+   
+    margin-top: 0px;
+    margin-left: 0px;
+    display: inline;
+}
+.body-decor1{
+    margin-top: -100px;
+    cursor: pointer;
+}
+.business{
+    height: 480px;
+    width:800px;
+   
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.business-image{
+    width: 796px;
+    height: 496px;
+}
+.business-info{
+   gap: 10px;
+}
+.seller{
+    height:60px;
+    width:350px;
+    
+    margin-top: -470px;
+    margin-left: 400px;
+    color: black; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+}
+.online{
+    color: rgb(159, 32, 137);
+    font-style: arial;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 52px;
+    font-family: "Mier bold";
+    margin-left: 170px;
+    margin-top: -19px;
+}
+.investment{
+    color: rgb(159, 32, 137);
+    font-style: arial;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 52px;
+    font-family: "Mier bold";
+    margin-left: 270px;
+    margin-top: -25px;
+}
+.playstoreicon{
+    height: 45px;
+    width:170px;
+    border-radius: 5px;
+    margin-left: 350px;
+    cursor: pointer;
+}
+.applestoreicon{
+    height: 45px;
+    width:170px;
+    border-radius: 5px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+.meesho-supplier{
+    height: 300px;
+    width:800px;
+    margin-left: 300px;
+    margin-top: 60px;
+    
+}
+.supplier-image{
+    height: 298px;
+    width:800px;
+    
+    
+}
+.register{
+    margin-top: -250px;
+    color: white;
+    margin-left: 50px;
+    font-size: 40px;
+}
+.products-sell{
+    color: white;
+    margin-left: 50px;
+    font-size: 21px;
+    margin-top: 5px;
+    
+}
+.business-benefits{
+    height: 55px;
+    width: 600px;
+    margin-top: -30px;
+    position: relative;
+    top: 20px;
+    margin-left: 10px;
+    display: flex;
+   
+    
+    
+}
+.business-grow{
+    height: 60px;
+    width: 200px;
+  
+}
+.enjoy-profit{
+    height: 60px;
+    width: 200px;
+   
+}
+.indiasale{
+    height: 60px;
+    width: 200px;
+   
+    
+}
+
+
+.container5{
+    background-color:green;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+  
+}
+.grow2{
+    margin-left: 50px;
+    color: white;
+    font-style: bold;
+    margin-top: -30px;
+    font-size: 25px;
+}
+.profit2{
+    margin-left: 50px;
+    color: white;
+    font-style: bold;
+    margin-top: -30px;
+    font-size: 25px;
+}
+.india2{
+    margin-left: 50px;
+    color: white;
+    font-style: bold;
+    margin-top: -30px;
+    font-size: 25px;
+}
+.button1{
+    margin-left: 90px;
+    margin-top: 50px;
+    width: 100px;
+    background-color: white;
+    
+}
+.signup{
+    font-size: 20px;
+    color:rgb(117, 30, 99);
+    font-style:bold;
+    cursor: pointer;
+    position: relative;
+    height: 60px;
+    width: 100px;
+    margin-top:-10px;
+    
+}
+.products{
+    height:70px;
+    width:300px;
+
+    margin-left:100px;
+    margin-top: 30px;
+    cursor: pointer;
+  
+}
+.products-size{
+    color: rgb(63, 63, 66);
+    font-family: "Mier bold";
+    font-size: 30px;
+    margin-top: 20px;
+   
+}
+
+.shoppingstart{
+    height: 7000px;
+    width:1200px;
+ 
+    margin-top: 20px;
+    margin-left: 100px;
+    display: flex;
+   
+}
+.filters{
+    height:2800px;
+    width: 220px;
+
+    margin-left: 10px;
+}
+.sort{
+    height:50px;
+    width:210px;
+    border:1px solid rgb(220, 215, 215);
+    border-radius: 10px;
+   
+}
+.sortby{
+    color: grey;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 12px;
+}
+.relevance{
+    color: black;
+    margin-left: 10px;
+
+}
+.filter1{
+    height: 2700px;
+    width: 210px;
+    border:1px solid rgb(220, 215, 215);
+    margin-left: 4px;
+    font-family: arial;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+    
+}
+.filter2{
+    margin-left: 10px;
+    font-style: bold;
+}
+.pro{
+    display: block;
+    color: grey;
+}
+.category{
+    margin-left: 20px;
+    font-size: 18px;
+    margin-top: -5px;
+}
+.category1{
+    color: rgb(82, 80, 80);
+}
+.shoppingcart{
+    height:7000px;
+    width:900px;
+
+    margin-left: 30px;
+    display: inline;
+}
+.div1{
+    display: flex;
+    margin-left: 35px;
+}
+.shop{
+    height:440px;
+    width:200px;
+    border:1px solid rgb(220, 215, 215);
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+
+}
+.shop-images{
+    height: 240px;
+    width:180px;
+    cursor: pointer;
+ 
+    margin-left: 10px;
+}
+.image-info{
+    height: 200px;
+    width:180px;
+ 
+    margin-left: 10px;
+    cursor: pointer;
+}
+.imgadjust{
+    height: 200px;
+    width:170px;
+    margin-top: 15px;
+
+}
+.image-name{
+    font-size: 20px;
+    color: rgb(139, 134, 134);
+    cursor: pointer;
+}
+.rate{
+    height: 25px;
+    width:170px;
+    
+    font-size: 23px;
+   
+}
+
+.rate-info{
+    margin-left: 5px;
+    font-size: 16px;
+    color: rgb(139, 134, 134);
+}
+.free-delivery1{
+    width: 100px;
+    height: 25px;
+   cursor: pointer;
+    background-color: rgb(240, 248, 254);
+    margin-left: 6px;
+    margin-top: 2px;
+    border-radius: 9px;
+    
+}
+.free-delivery{
+   
+    width: 100px;
+    margin-left: 10px;
+    padding-top: 5px;
+    font-size: 14px;
+    color: rgb(82, 79, 79);
+   
+    
+}
+.rating{
+    width: 46px;
+    height: 23px; 
+    margin-top: -5px;
+    background-color: rgb(34, 166, 78);
+    border-radius: 10px;
+    margin-left: 12px;
+}
+.rating1{
+    margin-left: 3px;
+    color: white;
+}
+.rating2{
+    margin-left: 52px;
+   margin-top: -30px;
+   font-size: 12px;
+   color: grey;
+}
+.review1{
+    margin-top: -7px;
+    font-size: 12px;
+}
+.footerdiv{
+    height: 500px;
+    width: 100%;
+    
+    background-color: rgb(234, 234, 249);
+    
+
+}
+.footerdiv1{
+    height: 400px;
+  
+    display: flex;
+    
+    
+}
+.fdp1{
+    height: 250px;
+    width:370px;
+  
+    margin-left: 80px;
+    margin-top: 60px;
+}
+
+.nonstop{
+    font-size: 34px;
+    display: inline;
+    color: rgb(97, 94, 94);
+}
+.trusted{
+    font-size: 17px;
+    color: rgb(97, 94, 94);
+}
+.playstore1{
+    height:48px;
+    width:170px;
+    margin-left:10px;
+    border-radius: 5px;
+   
+}
+.appleicon1{
+    height:48px;
+    width:170px ; 
+    border-radius: 5px;
+}
+.iconimages{
+    margin-top: 20px;
+}
+.fdp2{
+    height: 200px;
+    width:130px;
+
+    margin-top: 46px;
+    font-size: 18px;
+    margin-left: 12px;
+}
+.career1{
+    color: rgb(81, 79, 79);
+}
+.fdp3{
+    height: 200px;
+    width:130px;
+
+    margin-top: 46px;
+    font-size: 18px;
+    margin-left: 5px;
+}
+.fdp4{
+    height: 100px;
+    width:240px;
+   
+    margin: 53px;
+    margin-left: 2px;
+    font-style: bold;
+    font-size: 25px;
+    padding: 0px;
+}
+.reach1{
+    height: 50px;
+    width: 210px;
+    color: rgb(97, 94, 94);
+}
+.reach{
+    margin-top: 3px;
+   
+}
+.sociallinks{
+    height: 50px;
+    width: 235px;
+  
+}
+.socialimages{
+    height: 36px;
+    width: 40px;
+
+}
+.fdp5{
+    height: 370px;
+    width:180px;
+    color: rgb(97, 94, 94);
+    margin-right: 35px;
+    margin-top: 20px;
+}
+.shop-info{
+    height: 65px;
+    width:1000px;
+    border:1px solid rgb(220, 215, 215);
+    margin-left: -1100px;
+    margin-top: 400px;
+    background-color: white;
+    border-radius: 10px;
+}
+.moremeesho{
+    margin-left: 30px;
+    font-size: 22px;
+    color: rgb(97, 94, 94);
+}
